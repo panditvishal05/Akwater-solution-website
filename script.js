@@ -350,7 +350,7 @@ function validateForm(form) {
         // Phone validation
         if (input.type === 'tel' && input.value) {
             const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
-            if (!phoneRegex.test(input.value.replace(/\s/g, ''))) {
+            if (!zphoneRegex.test(input.value.replace(/\s/g, ''))) {
                 input.style.borderColor = '#f44336';
                 isValid = false;
             }

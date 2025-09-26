@@ -81,7 +81,7 @@ body {
     max-width: 1450px;
 }
 
-.nav-logo {
+/* .nav-logo {
     display: flex;
     align-items: center;
     margin-left: 0;   
@@ -95,6 +95,24 @@ body {
     height: 40px;
     margin-right: 10px;
     margin-bottom: 5px;
+}
+ */
+
+.nav-logo {
+  display: flex;
+  align-items: center; /* Vertically center text with logo */
+             /* Logo aur text ke beech thoda space */
+}
+
+.nav-logo .logo {
+  width: 60px; /* Apne hisaab se size adjust kar sakte ho */
+  height: auto;
+}
+
+.nav-logo span {
+  color: black;       /* Text color black */
+  font-weight: bold;  /* Thoda bold banake attractive dikhaye */
+  font-size: 1.1rem;  /* Size adjust kar sakte ho */
 }
 
 
